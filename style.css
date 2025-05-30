@@ -1,0 +1,84 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clock {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 20vh;
+  margin-bottom: -10px;
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#greeting {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0;
+}
+
+#greeting input,
+#greeting button {
+  font-size: 17px;
+  padding: 7px;
+  margin: 0px 0 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#weather {
+  position: relative;
+  top: -20px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  color:rgba(255, 255, 255, 0.882);
+}
+
+#todo-form {
+  margin-top: 0px;
+  background-color: transparent;
+  padding: 0;
+  text-align: center;
+}
+
+#todo-form input {
+  width: 300px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  box-shadow: none;
+}
+
+#todo-form input::placeholder {
+  color: #555;
+  opacity: 1;
+}
